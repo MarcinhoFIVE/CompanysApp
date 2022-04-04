@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/purple_200">
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56sp"
+        android:textSize="32sp"
+        android:textColor="@color/white"
+        android:text="@string/welcome_back"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_marginHorizontal="100sp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_proin_dictum_risus_non_eros_sollicitudin_commodo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_marginTop="48dp"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_securitybusiness"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:textColor="@color/white"
+        android:text="COMPANY NAME"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_marginHorizontal="100sp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="SLOGAN HERE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        app:cornerRadius="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:textAllCaps="false"
+        android:text="Sign in"
+        android:backgroundTint="@color/orange1"
+        android:layout_marginHorizontal="56dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        app:cornerRadius="20dp"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/orange1"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:textAllCaps="false"
+        android:layout_marginHorizontal="56dp"
+        android:text="Sign up"/>
+
+    <TextView
+        android:layout_marginTop="96dp"
+        android:layout_marginHorizontal="100sp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Sign in with Social Media"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:layout_marginHorizontal="130dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TableRow>
+            <com.google.android.material.button.MaterialButton
+                android:layout_marginRight="5dp"
+                app:cornerRadius="20dp"
+                android:layout_marginLeft="8dp"
+                android:layout_gravity="center"
+                android:layout_width="36dp"
+                android:layout_height="46dp"
+                app:strokeColor="@color/white"
+                app:strokeWidth="0.7dp"
+                android:drawableBottom="@drawable/ic_facebook"
+                />
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="36dp"
+                android:layout_height="46dp"
+                android:layout_marginRight="5dp"
+                android:drawableBottom="@drawable/ic_tweet"
+                app:cornerRadius="100dp"
+                app:strokeColor="@color/white"
+                app:strokeWidth="0.7dp"
+                android:layout_marginEnd="5dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="36dp"
+                android:layout_height="46dp"
+                android:layout_marginHorizontal="5dp"
+                android:drawableBottom="@drawable/ic_linkedin"
+                app:cornerRadius="20dp"
+                app:strokeColor="@color/white"
+                app:strokeWidth="0.7dp" />
+
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>

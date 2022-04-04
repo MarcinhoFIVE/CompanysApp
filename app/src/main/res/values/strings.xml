@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CompanysApp</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_proin_dictum_risus_non_eros_sollicitudin_commodo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dictum risus non eros sollicitudin commodo.</string>
+    <string name="password_signin">Password</string>
+    <string name="username_signin">User Name</string>
+    <string name="forgetpassword">Forget Password?</string>
+    <string name="signin_button">Sign in</string>
+    <string name="remember_password">Remember Password</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="signup_info">Sign up</string>
+    <string name="username_signup">User Name</string>
+    <string name="password_signup">Password</string>
+    <string name="email_signup">E-mail</string>
+    <string name="phone_signup">Phone</string>
+    <string name="terms_signup"><![CDATA[Allow Term & Conditions]]></string>
+    <string name="signup_button">Sign up</string>
+    <string name="have_account">Already have an account?</string>
+    <string name="signin_info">Sign in</string>
+</resources>
